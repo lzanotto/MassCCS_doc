@@ -16,15 +16,15 @@ MassCCS
 =======
 **PROJECT UNDER CONSTRUCTION**
 
-Massive Collision Cross Section calculations for large macromolecular assemblies (MassCCS). MassCCS is a efficient parallel software
+Massive Collision Cross Section calculations for large macromolecular assemblies (MassCCS). MassCCS is an efficient parallel software
 for calculating Collision Cross Section (CCS) under the trajectory method (TM) for any macromolecular structure regardless of its size, 
-shape, and surface rugosity, without significant loss of accuracy or performance. 
+shape and surface rugosity, without significant loss of accuracy or performance. 
 
-MassCCS relies on the linked-cell algorithm for computing intermolecular forces, ellipsoid projection approximation, and efficient
+MassCCS relies on the linked-cell algorithm for computing intermolecular forces, ellipsoid projection approximation and efficient
 parallelization techniques that greatly enhance its performance in comparison to available TM CCS codes.
 
-MassCCS is written in C++ and support OpenMP. We performed extensive tests on calculation accuracy, speed up gains, and scalability with
-system size. MassCCS efficiency is particularly scalable for multiple CPU cores.
+MassCCS is written in C++ and supports OpenMP. Extensive tests on calculation accuracy, speed up gains, and scalability with
+system size were performed. MassCCS efficiency is particularly scalable for multiple CPU cores.
 
 If you use MassCCS in your research please cite the following papers:
 
