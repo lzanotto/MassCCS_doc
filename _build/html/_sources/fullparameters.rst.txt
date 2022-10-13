@@ -1,0 +1,49 @@
+Complete Parameters description 
+===============================
+
+Each possible program option that can be used in an input file will be listed in
+the following few sections of this manual along with a brief explanation of it's
+functionality. It should be noted that not every option is required to be included
+in an input file, and the user can choose which (if any) are appropriate for
+their calculations. Thus, all options, including the input file itself, is optional.
+As a result, each variable that can be changed will also have a default value.
+
+numberProbe-tag
+~~~~~~~~~~~~~~~
+Default: 1000
+number of trajectories calculations per CCS integral.
+
+nIter-tag
+~~~~~~~~~
+Default: 10
+number of CCS integrals.
+
+nthreads-tag
+~~~~~~~~~~~~
+Default: maximal available threads
+number of threads.
+
+Temp-tag
+~~~~~~~~
+Default: 298.0 K
+Temperature of buffer gas in Kelvin.
+
+seed-tag
+~~~~~~~~
+random number seed to use for random positions of buffer gas around the target 
+molecule and generate their velocities distribution according to the select temperature.
+
+dt-tag
+~~~~~~
+Default: 10 fs
+time step in fs.
+
+skin-tag
+~~~~~~~~
+Default: 0.01 Å
+skin size of unit cell
+
+GasBuffer-tag
+~~~~~~~~~~~~~
+Default: He
+select buffer gas type between He or N:sub:`2`.
